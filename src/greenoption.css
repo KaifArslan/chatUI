@@ -1,0 +1,33 @@
+.green-popup-window {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0.75rem 0.75rem;
+  justify-content: baseline;
+  align-items: center;
+  align-content: initial;
+  gap: 0;
+  box-shadow: 0px -1px 8px 0px rgba(0, 0, 0, 0.05);
+  max-width: 8rem;
+  position: absolute;
+  bottom: 1.75rem;
+  right: 0;
+}
+ 
+.green-triangle {
+  fill: var(--colours-brand-primary, #008000);
+  stroke-width: 1px;
+  stroke: var(--colours-brand-primary, #008000);
+  margin-top: -0.7rem;
+}
+
+.green-option {
+  display: flex;
+  gap: 1rem;
+  background: var(--colours-brand-primary, #008000);
+  border-radius: 62.4375rem;
+  width: 7.75rem;
+  height: 2.75rem;
+  justify-content: center;
+  align-items: center;
+}
