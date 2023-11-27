@@ -22,7 +22,6 @@ const ChatHeader: React.FC = () => {
         </svg>
       </div>
       <div className="chat-users">
-        <img src='/assets/Profile.png' alt='icon' />
         <div className="chat-users-details">
           <span className='from-to'>From </span>IGI Airport, T3 <br />
           <span className='from-to'>To  </span> Sector 28
