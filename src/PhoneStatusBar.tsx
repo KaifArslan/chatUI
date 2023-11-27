@@ -23,8 +23,6 @@ const PhoneStatusBar: React.FC = () => {
     <div className="phone-status-bar">
       <div className="time">{currentTime}</div>
       <div className="status-icon">
-        {/* You can replace 'your-image-path' with the actual path to your image */}
-        <img src="/assets/phone_status.png" alt="" />
       </div>
     </div>
   );
